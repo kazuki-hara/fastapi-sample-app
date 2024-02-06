@@ -1,0 +1,10 @@
+{
+    //isort
+    "editor.codeActionsOnSave": {
+        "source.organizeImports": "explicit"
+    },
+    //black
+    "editor.formatOnSave": true,
+    //autoDocstring
+    "autoDocstring.docstringFormat": "google",
+}

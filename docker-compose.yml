@@ -1,0 +1,12 @@
+version: '3'
+
+services:
+  api:
+    build:
+      context: .
+      dockerfile: ./api/Dockerfile
+    volumes:
+      - ./api:/opt/mnt
+    ports:
+      - 8000:8000
+    tty: true
